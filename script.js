@@ -1,4 +1,3 @@
-//Work in Progress. This project is going to make GDP data of all countries accessible
 const { select, json, scaleLinear, scaleTime, min, max, axisBottom, axisLeft } =
   d3;
 
@@ -112,4 +111,3 @@ await json("data.json").then((gdp_data) => {
   return chartMaker(data);
 });
 
-// Source of Data -
